@@ -10,7 +10,7 @@ jQuery(document).ready(function ($) {
 
   // custom code
   const countDown = () => {
-    const countDate = new Date("March 14, 2024 09:00:00").getTime();
+    const countDate = new Date("December 19, 2024 09:00:00").getTime();
     // const countDate = new Date("February 07, 2023 15:13:00").getTime();
     const currentTime = new Date().getTime();
     const gap = countDate - currentTime;
